@@ -6,17 +6,15 @@ Agent1 :
     Name : Agent1
     Desc : Agent to do basic tasks 
     parent : Supervisor
-    child : []
 Agent2 :
     Name : Agent2
     Desc : Agent doing basic tasks
     parent : Supervisor
-    child : []
-Agent1-1 : 
-    Name : Agent1-1
+Agent11 : 
+    Name : Agent11
     Desc : Agent doing basic tasks over output of Agent1
     parent : Agent1
-Agent2-1 : 
-    Name : Agent2-1
+Agent21 : 
+    Name : Agent21
     Desc : Agent doing basic tasks over output of Agent2
     parent : Agent2

@@ -1,0 +1,12 @@
+certifi==2024.7.4
+interchange==2021.0.4
+monotonic==1.6
+packaging==24.1
+pansi==2020.7.3
+py2neo==2021.2.4
+Pygments==2.18.0
+python-dotenv==1.0.1
+pytz==2024.1
+PyYAML==6.0.2
+six==1.16.0
+urllib3==2.2.2
