@@ -1,20 +1,20 @@
 Supervisor :
     Name : Supervisor
     Desc : starting agent to route task to a relevant path of agents
-    parent : None
+    parent : []
 Agent1 :
     Name : Agent1
     Desc : Agent to do basic tasks 
-    parent : Supervisor
+    parent : [Supervisor]
 Agent2 :
     Name : Agent2
     Desc : Agent doing basic tasks
-    parent : Supervisor
+    parent : [Supervisor]
 Agent11 : 
     Name : Agent11
     Desc : Agent doing basic tasks over output of Agent1
-    parent : Agent1
+    parent : [Agent1]
 Agent21 : 
     Name : Agent21
     Desc : Agent doing basic tasks over output of Agent2
-    parent : Agent2
+    parent : [Agent2, Agent1]
