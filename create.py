@@ -12,7 +12,7 @@ with open('agents.yaml', 'r') as file:
     data = yaml.safe_load(file)
 
 # Connect to the Neo4j database
-graph = Graph("bolt://localhost:7687", auth=("neo4j", neo4j_password))
+graph = Graph("neo4j://localhost:7687", auth=("neo4j", neo4j_password))
 
 # Clear existing data (optional, be cautious with this)
 graph.run("MATCH (n) DETACH DELETE n")
