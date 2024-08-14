@@ -4,17 +4,17 @@ Supervisor :
     parent : []
 Agent1 :
     Name : Agent1
-    Desc : Agent to do basic tasks 
+    Desc : An Agent meant to do Mathematical tasks
     parent : [Supervisor]
 Agent2 :
     Name : Agent2
-    Desc : Agent doing basic tasks
+    Desc : An Agent for doing basic search tasks outside of the realm of Maths
     parent : [Supervisor]
 Agent11 : 
     Name : Agent11
-    Desc : Agent doing basic tasks over output of Agent1
+    Desc : An Agent that is an expert at solving mathematical problems. It can do accurate calculations using a calculator tool
     parent : [Agent1]
 Agent21 : 
     Name : Agent21
-    Desc : Agent doing basic tasks over output of Agent2
+    Desc : An Agent for saying goodbye to the user and ensuring a smooth transition to the conclusion
     parent : [Agent2, Agent1]
